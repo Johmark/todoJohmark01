@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">todoJohmark01</string>
+    <string name="action_settings">Settings</string>
+    <string name="nombre">Nombre:</string>
+    <string name="hintnombre">Escriba su nombre</string>
+    <string name="actividad">Actividad</string>
+    <string name="hintactividad">Escriba la Actividad</string>
+    <string name="botonaso">Guardar</string>
+    <string name="error_valid">A ocurrido un error Revise los datos</string>
+    <string name="action_refrash">Refresh</string>
+</resources>

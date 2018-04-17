@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/fab_margin">
+
+    <TextView
+        android:id="@+id/lblnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:gravity="left"
+        android:layout_marginBottom="@dimen/fab_margin"
+        />
+    <EditText
+        android:id="@+id/txtnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintnombre"
+        android:gravity="left"
+        android:layout_marginBottom="@dimen/fab_margin"
+        />
+    <TextView
+        android:id="@+id/lblactividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/actividad"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:gravity="left"
+        android:layout_marginBottom="@dimen/fab_margin"
+        />
+    <EditText
+        android:id="@+id/txtactividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintactividad"
+        android:gravity="left"
+        android:layout_marginBottom="@dimen/fab_margin"/>
+    <Button
+        android:id="@+id/btnguardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonaso"
+        android:gravity="center"/>
+
+</LinearLayout>
